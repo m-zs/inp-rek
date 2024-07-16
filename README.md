@@ -1,3 +1,14 @@
+### Jak odpalić
+1. `npm i`
+2. `npm run test`
+
+### Co należy zrobić, odpowiedź:
+1. Fn została rozbita na główną i pomocnicze pure fn, nie ma definicji formatu prawidłowego `Title`, który powinien być mapowany do `order`, bazując na correctResult to liczba bez `#`, kod wejściowo splituje hashe
+2. Fn przyjmuje callback o zdefiniowanym typie
+3. Test nie zwraca błędów w przypadku `ceepEqual`, który sprawdza kolejność
+4. `task.spec.ts`, niestety tylko jeden case z 1 strukturą
+
+-----
 
 ## A co my tu mamy?
 
